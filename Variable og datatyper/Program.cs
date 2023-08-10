@@ -14,13 +14,11 @@ namespace Variable_og_datatyper
             double width = 5.1;
 
             // Opgave b
-            // Kompileren har problemer da det er 2 forskellige datatyper
-            // Den konventere ikke automatisk selv og derfor giver den fejl.
-            // Siden variablen area er en int, og derfor kan man ikke bruge datatypen double
+            // Vil ikke virke, da jeg prøver at putte et kommatal i et heltal altså double i integer
             int area = width * length;
 
             // Opgave c
-            // Nu passer datatypen til double til vores variabel width, er den forstår nu at kompilere koden.
+            // Virker da det ikke er et problem at putte heltal i kommatal, altså integer i double
             double d = width * length;
 
             Console.WriteLine(length*width);
