@@ -14,11 +14,12 @@ namespace Variable_og_datatyper
             double width = 5.1;
 
             // Opgave b
-            // Vil ikke virke, da jeg prøver at putte et kommatal i et heltal altså double i integer
+            // Wouldn't work when you try to put an decimal number in a integer, also called double
+            // and integer when we talk about datatypes.
             int area = width * length;
 
             // Opgave c
-            // Virker da det ikke er et problem at putte heltal i kommatal, altså integer i double
+            // Works since you can put a integer in a decimal number, but not the other way around.
             double d = width * length;
 
             Console.WriteLine(length*width);
